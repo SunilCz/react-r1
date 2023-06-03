@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sunilcz.github.io/react-r1",
+  "homepage": "https://github.com/SunilCz/react-r1",
   "name": "react-r1",
   "version": "0.1.0",
   "private": true,
@@ -29,6 +29,7 @@
     "eslint-plugin-react": "7.12.4",
     "file-loader": "2.0.0",
     "fs-extra": "7.0.1",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "4.0.0-alpha.2",
     "identity-obj-proxy": "3.0.0",
     "jest": "23.6.0",
@@ -80,9 +81,6 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
-  },
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
@@ -133,5 +131,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.3"
   }
 }
